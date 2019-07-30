@@ -19,7 +19,7 @@
         <?php  
             $proyecto = obtenerNombreProyecto($id_proyecto);
             if ($proyecto) {
-                echo "<h1>Proyecto actual: ";
+                echo "<h1>Proyecto Actual: ";
                 foreach ($proyecto as $nombre) {
                     echo "<span>";
                     echo $nombre['nombre_proyecto'];
@@ -40,7 +40,7 @@
                     echo "<h1>Selecciona un proyecto</h1>";
                 } ?>
 
-        <h2>Listado de tareas:</h2>
+        <h2>Lista de tareas:</h2>
 
         <div class="listado-pendientes">
             <ul>
